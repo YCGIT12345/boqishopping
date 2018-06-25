@@ -1,0 +1,311 @@
+.icon-favorfill, .icon-location, .icon-cart_light { color: orangered; font-size: 18px; margin-right: 6px; }
+
+#header_wrap { height: 36px; background: #fff; border-bottom: 1px solid #ddd; }
+
+.content { width: 1190px; }
+
+.red { color: #e53; }
+
+.header { height: 36px; }
+
+.header > div:nth-child(1) { float: left; width: 122px; height: 36px; line-height: 36px; text-align: center; font-size: 16px; font-weight: bold; }
+
+.header > div:nth-child(2) { float: left; width: 86px; height: 36px; line-height: 36px; text-align: center; font-size: 14px; font-weight: bold; }
+
+.header > ul { float: right; width: 350px; font-weight: bold; }
+
+.header > ul > li { float: left; margin: 10px 0; line-height: 16px; text-align: center; border-right: 1px solid #ccc; }
+
+.header > ul > li:nth-child(5) { width: 108px; border-right: none; }
+
+.header > ul > li > a { display: block; text-align: center; margin-right: 10px; font-size: 14px; margin-left: 10px; }
+
+.header > ul > li > a > .icon-sortlight { font-size: 18px; color: red; margin-right: 6px; font-weight: bold; }
+
+.nav_top { height: 80px; }
+
+.nav_top > a { display: block; width: 1190px; height: 80px; background: url("../img/shopimgFile1527835140.jpg") no-repeat center center; background-size: 100% 100%; }
+
+.top_auto { height: 100px; padding: 15px 0; }
+
+.top_auto > div:nth-child(1) { width: 240px; height: 100px; float: left; }
+
+.top_auto > div:nth-child(1) > a { display: block; width: 240px; height: 100px; background: url("../img/logon.jpg") no-repeat center center; background-size: 100% 100%; text-indent: -9999px; }
+
+.top_auto > div:nth-child(2) { width: 600px; height: 61px; position: relative; margin: 34px 0 0 55px; float: left; }
+
+.top_auto > div:nth-child(3) { margin-top: 7px; float: right; }
+
+.top_auto > div:nth-child(3) > a { display: block; width: 230px; height: 90px; background: url("../img/logos.gif") no-repeat center center; background-size: 100% 100%; }
+
+#Topsearch_bot { color: #999; margin-top: 5px; }
+
+#Topsearch_bot > a { font-size: 12px; color: #999; }
+
+#Topsearchform { width: 494px; padding: 5px 10px; height: 26px; color: #ccc; border: 3px solid #e53; border-right: none; float: left; }
+
+#Topsearchsbmit { height: 42px; background: #e53; text-align: center; width: 80px; color: #fff; cursor: pointer; border: none; }
+
+#nav_wrap { height: 36px; background: #e53; }
+
+.nav { height: 36px; }
+
+#nav_left { width: 170px; background: #c20; height: 36px; padding: 0 10px; position: relative; float: left; line-height: 36px; }
+
+#nav_left > a > span { color: #fff; float: left; font-weight: bold; }
+
+#nav_left > a > em { color: #fff; float: right; font-size: 16px; font-weight: bold; }
+
+.nav1 { width: 784px; height: 36px; overflow: hidden; float: left; }
+
+.nav .nav1 > a { height: 36px; float: left; padding: 0 17px; color: #fff; line-height: 36px; font-weight: bold; }
+
+.nav .nav1 > a:hover { background: #9a0000; }
+
+#nav_right { position: relative; float: right; width: 142px; height: 36px; background: #c20; padding-left: 10px; color: #fff; }
+
+.shop_text { float: left; line-height: 36px; height: 36px; }
+
+#nav_right > .shop_text > a { color: #fff; font-size: 14px; font-weight: bold; }
+
+#nav_right > .shop_text > em { color: #fff; font-size: 20px; font-weight: bold; }
+
+#nav_right > .Carnum { width: 25px; float: left; text-align: center; padding: 0 15px; font-size: 16px; line-height: 36px; font-weight: bold; }
+
+#shop_cont_wrap { height: 451px; background: #f3f3f3; }
+
+.shop_cont { height: 451px; position: relative; }
+
+#menu { width: 188px; border: 1px solid #c20; border-top: none; background: #fff; position: relative; height: 450px; float: left; }
+
+.menu_list_1 { padding: 8px 9px 9px; border-bottom: 1px solid #ccc; border-left: 1px solid #fff; border-top: 1px solid #fff; border-right: 1px solid #fff; }
+
+.mune_tit { width: 168px; height: 24px; line-height: 24px; }
+
+.mune_tit > .icon-right { float: right; }
+
+.mune_body { width: 168px; height: 63px; }
+
+.mune_body2 { width: 168px; height: 21px; margin-top: 3px; }
+
+.menu_list_1 > .mune_body > span > a { width: 28px; height: 19px; margin-right: 18px; line-height: 22px; }
+
+#banner { width: 800px; height: 360px; position: relative; overflow: hidden; float: left; }
+
+#banner > ul { position: absolute; }
+
+#banner > ul > li { float: left; width: 800px; height: 360px; }
+
+#banner > ul > li > img { width: 800px; height: 360px; }
+
+#banner_bot { height: 91px; float: left; }
+
+#banner_bot > a > img { width: 266px; height: 90px; float: left; margin: 1px 1px 0 0; }
+
+#shop_r_cont { width: 200px; height: 451px; float: right; position: absolute; right: 0; }
+
+#shop_r_cont > div:nth-child(1) { width: 200px; height: 200px; }
+
+#shop_r_cont > div:nth-child(1) > a { display: block; width: 200px; height: 200px; background: url("../img/banner_right1.jpg") no-repeat center center; background-size: 100% 100%; }
+
+.zx { padding: 10px; height: 95px; }
+
+.az { width: 200px; height: 45px; padding: 0 10px; }
+
+#accept { width: 110px; height: 22px; line-height: 22px; border: 1px solid #ccc; background: #f6f6f6; float: left; padding: 0 5px; }
+
+#accept_r { background: #e53; color: #fff; font-weight: bold; width: 50px; height: 24px; border: none; cursor: pointer; }
+
+#banner_r_bot { width: 200px; height: 90px; }
+
+#banner_r_bot > a { display: block; width: 200px; height: 90px; background: url("../img/banner_r_bot.jpg") no-repeat center center; background-size: 100% 100%; }
+
+#body_main { height: 100%; }
+
+.hot_pro { margin-top: 25px; }
+
+.hot_pro_t { line-height: 22px; overflow: hidden; }
+
+.hot_pro_t > h2 { float: left; color: #e53; font-size: 20px; }
+
+.hot_pro_t > a { float: right; font-size: 14px; color: #666; }
+
+#hotpro_b { height: 240px; border: 1px solid #ccc; margin-top: 4px; }
+
+#hotpro_b > dl { float: left; width: 177px; padding: 20px 10px 15px; border-right: 1px solid #ccc; }
+
+#hotpro_b > dl > dt { text-align: center; width: 178px; }
+
+#hotpro_b > dl > dt > a > img { width: 120px; height: 120px; }
+
+#hotpro_b > dl > dd { height: 32px; margin-top: 10px; }
+
+#hotpro_b > dl:nth-child(6) { border-right: none; }
+
+.span1 { float: left; font-size: 14px; }
+
+.span2 { float: right; font-size: 12px; }
+
+.main1 { margin-top: 25px; height: 302px; }
+
+.hot_pro_tt { height: 270px; position: relative; margin-top: 4px; float: left; }
+
+.hot_pro_tt > a:nth-child(1) { position: absolute; left: 0; top: 0; }
+
+.hot_pro_tt > a:nth-child(2) { position: absolute; left: 200px; top: 0; }
+
+.hot_pro_tt > a:nth-child(3) { position: absolute; left: 200px; top: 140px; }
+
+.hot_pro_tt > a:nth-child(4) { position: absolute; left: 400px; top: 0; }
+
+.hot_pro_tt > a:nth-child(5) { position: absolute; left: 600px; top: 0; }
+
+.hot_pro_tt > a:nth-child(6) { position: absolute; left: 600px; top: 140px; }
+
+.hot_pro_tt > a:nth-child(7) { position: absolute; left: 800px; top: 0; }
+
+.hot_pro_tt > a:nth-child(8) { position: absolute; left: 1000px; top: 0; }
+
+.hot_pro_tt > a:nth-child(9) { position: absolute; left: 1000px; top: 140px; }
+
+.main2 { height: 520px; margin-top: 20px; position: relative; }
+
+.main2_top { height: 30px; border-bottom: 2px solid #e53; }
+
+.hot_pro_tr2 { float: left; width: 190px; height: 30px; }
+
+.hot_pro_tr2 > em { width: 35px; height: 30px; float: left; margin-left: 5px; font-size: 16px; line-height: 30px; }
+
+.hot_pro_tr2 > h2 { font-size: 20px; line-height: 30px; float: left; }
+
+.hot_pro_tc2 { height: 30px; line-height: 30px; }
+
+.hot_pro_tc2 > a { display: block; width: 64px; height: 30px; float: left; text-align: center; border-right: 1px solid #ccc; }
+
+.hot_pro_tc2 > a:hover { color: #fff; background: #e53; }
+
+.main2_left { float: left; }
+
+.main2_center { width: 800px; height: 422px; overflow: hidden; float: left; }
+
+.main2_center .dog_food { width: 800px; height: 421px; }
+
+.dog_food > dl { float: left; width: 174px; border: 1px solid #fff; padding: 20px 12px 15px; height: 174px; }
+
+.dog_food > dl > dt { width: 174px; height: 120px; overflow: hidden; margin-bottom: 5px; text-align: center; }
+
+.span_left { float: left; font-size: 14px; }
+
+.span_right { float: right; }
+
+.dog_food_bot { width: 800px; height: 58px; position: absolute; bottom: 0; left: 190px; float: left; }
+
+.dog_food_bot > a { display: block; width: 800px; height: 58px; background: url("../img/dog_food_bot_03.jpg") no-repeat center center; background-size: 100% 100%; }
+
+.main2_right { float: right; width: 178px; height: 466px; border: 1px solid #e6e6e6; padding: 10px; }
+
+.main2_right_b { margin-top: 12px; overflow: hidden; }
+
+.main2_right_b > dl { margin-top: 8px; }
+
+.main2_right_b > dl > dt { float: left; }
+
+.main2_right_b > dl > dt > a > img { width: 60px; height: 60px; display: block; }
+
+.main2 { height: 520px; margin-top: 20px; }
+
+.main2_top { height: 30px; border-bottom: 2px solid #e53; }
+
+.hot_pro_tr2 { float: left; width: 190px; height: 30px; }
+
+.hot_pro_tr2 > em { width: 35px; height: 30px; float: left; margin-left: 5px; font-size: 16px; line-height: 30px; }
+
+.hot_pro_tr2 > h2 { font-size: 20px; line-height: 30px; float: left; }
+
+.hot_pro_tc2 { height: 30px; line-height: 30px; }
+
+.hot_pro_tc2 > a { display: block; width: 64px; height: 30px; float: left; text-align: center; border-right: 1px solid #ccc; }
+
+.hot_pro_tc2 > a:hover { color: #fff; background: #e53; }
+
+.main2_left { float: left; }
+
+.main2_center { width: 800px; height: 422px; overflow: hidden; float: left; }
+
+.main2_center .dog_food { width: 800px; height: 421px; }
+
+.dog_food > dl { float: left; width: 174px; border: 1px solid #fff; padding: 20px 12px 15px; height: 174px; }
+
+.dog_food > dl > dt { width: 174px; height: 120px; overflow: hidden; margin-bottom: 5px; text-align: center; }
+
+.dog_food > dl > dt > a { display: block; width: 120px; height: 120px; margin-left: 27px; }
+
+.dog_food > dl > dt > a > img { width: 120px; height: 120px; }
+
+.span_left { float: left; font-size: 14px; }
+
+.span_right { float: right; }
+
+.dog_food_bot { width: 800px; height: 58px; position: absolute; bottom: 0; left: 190px; }
+
+.main2_right { float: right; width: 178px; height: 466px; border: 1px solid #e6e6e6; padding: 10px; }
+
+.main2_right_b { margin-top: 12px; overflow: hidden; }
+
+.main2_right_b > dl { margin-top: 8px; }
+
+.main2_right_b > dl > dt { float: left; }
+
+.main2_right_b > dl > dt > a > img { width: 60px; height: 60px; display: block; }
+
+.main3 { height: 214px; margin-top: 25px; }
+
+.main3 > a { display: block; width: 1190px; height: 214px; background: url("../img/footer3.jpg") no-repeat center center; background-size: 100% 100%; }
+
+.main4 { height: 120px; margin-top: 30px; }
+
+.main4 > a { display: block; width: 1190px; height: 120px; background: url("../img/footer2.jpg") no-repeat center center; background-size: 100% 100%; margin-left: 114px; }
+
+#footer_2wrap { height: 120px; background: #e53; }
+
+#footer_details { height: 151px; background: #f3f3f3; }
+
+.footer_details { height: 151px; padding: 15px 0; }
+
+.footer_details > dl { float: left; width: 70px; margin: 0 0 0 134px; }
+
+.footer_details > dl > dt { font-weight: bold; color: #464646; padding-bottom: 5px; font-size: 14px; }
+
+.footer_details > dl > dd { margin-top: 6px; }
+
+.footer1 { height: 153px; }
+
+.footer1 > a { display: block; height: 164px; background: url("../img/footer1.jpg") no-repeat center center; background-size: 100% 100%; }
+
+#fixd { position: fixed; top: 0; right: 0; width: 36px; height: 100%; z-index: 10; }
+
+.Rightfloatnav { position: absolute; top: 0; right: 0; z-index: 11; width: 36px; height: 100%; background: #0c0c0c; opacity: 0.95; }
+
+.Right_pic { margin-top: -100px; position: absolute; top: 30%; }
+
+.Right_pic > ul > li { width: 36px; height: 80px; left: 0; position: relative; z-index: 13; display: block; border-top: 1px solid #343434; line-height: 14px; padding-top: 18px; text-align: center; }
+
+.Right_pic > ul > li > a { color: #e53; display: block; width: 100%; height: 100%; }
+
+.Right_pic > ul > li:hover { color: #fff; background: #e53; }
+
+.Right_pic > ul > li > a:hover { color: #fff; }
+
+.Right_pic > ul > li > a > span { display: block; margin: 8px auto; text-align: center; width: 14px; }
+
+.isbar_cat { background: url("../img/sbar_ico.png") no-repeat; display: block; width: 36px; height: 36px; margin: 0 auto; cursor: pointer; }
+
+.height_r1 { width: 36px; left: 0; position: relative; z-index: 13; display: block; }
+
+.isbar_cat2 { background: url("../img/sbar_ico.png") no-repeat; display: block; width: 36px; height: 36px; margin: 0 auto; cursor: pointer; }
+
+.Right_pic > ul > li > a > i { font-size: 20px; }
+
+.erji { display: none; position: absolute; width: 700px; height: 450px; z-index: 14; background: #ccc; top: 0; left: 188px; text-align: center; border: 1px solid #000; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,38 @@
+*{margin:0;padding:0;}
+.content{width:1200px;margin:0 auto;}
+#header_wrap{height:70px;background:#e0e0e0;position: relative;}
+.main{height:520px;border: 1px solid #ccc;margin-top: 40px}
+.logo{height:100px;}
+h1{position: absolute;top:20px;left:400px;color:green;}
+.left{width:666px;height:418px;margin:40px 0 0 40px;float:left;}
+.left>a{display: block;width:666px;height:418px;background:url("http://a.boqiicdn.com/Images/sitenew/login/log2.jpg");}
+.right{background:#ccc;width:300px;height:378px;float:right;margin-right: 40px;margin-top: 40px;border:1px solid #e3e6e0;padding:30px 30px 20px;font-size: 20px}
+.right a{font-size: 14px}
+label{float:left;}
+input{border:1px solid #ccc;border-radius: 3px;height:38px;width:234px;padding-left: 10px}
+#btn{width:300px;height:40px;border-radius:5px;background:green;margin-top: 96px}
+.promit{width:80px;}
+.top_h{float:left;}
+.right1{font-size: 14px;float:right;}
+.right p{height:30px;margin-top: 40px;text-align: center}
+.icon-peoplefill,.icon-unlock{width:40px;height:38px;line-height: 38px;text-align: center;border:1px solid #c1c1c1;float:left;background: #ccc;}
+.icon-peoplefill,.icon-unlock>input{float:left;}
+.top_b{font-size: 16px}
+.top_b>input{width: 16px;height:16px;margin-top: 54px}
+
+ul{list-style: none}
+.icon-tao{font-size: 16px;margin-right: 4px}
+.icon-shuma{font-size: 16px;margin-right: 4px}
+.icon-community_fill_light{font-size: 16px;margin-right: 4px}
+#header_wrap{height:37px;background:#fff;border-bottom: 1px solid #ddd}
+#header_left{width:380px;float:left;}
+#header_left>ul>li{float: left;margin: 0 20px 0 0;height:37px;line-height: 37px}
+#header_right{width:369px;float:right;}
+#header_right>ul>li{float: left;margin: 0 20px 0 0;height:37px;line-height: 37px}
+#nav_wrap{height:130px;background:#f3f3f3;}
+.logo{width:240px;height:100px;float:left;padding-top: 14px}
+.reg_left{width:693px;height:480px;padding:40px 0 0 50px;float:left;background: #fff;margin-top: 40px}
+.reg_t_tag{height:38px;text-align: center;font-size: 20px;line-height: 38px}
+.reg_t_tag>a{display: block;font-size: 24px}
+.reg_t_tag>a>.icon-shuma{font-size: 24px}
+.top_left{line-height: 130px;float: left;margin-left: 20px}

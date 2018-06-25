@@ -1,0 +1,30 @@
+.content{width:990px;margin: 0 auto;}
+#nav_wrap{height:130px;background:#f3f3f3;}
+.logo{width:240px;height:100px;float:left;padding-top: 14px}
+.red{color:red;}
+ul{list-style: none;}
+#header{width:1000px;height:40px;margin:20px auto;
+  background: #cccccc;line-height: 40px;
+}
+#header>ul>li{float:left;width:120px;}
+#header>ul>li>p{text-align: center}
+#list{width:1000px;margin: 0 auto;background:#fff4e8;}
+.img>img{width:50px;height:50px;}
+tr{width:1000px;height:120px;}
+td{width:120px;height:120px;text-align: center}
+input{width:20px;height:10px;}
+.word{width:200px;height:120px;}
+.check{text-align: center}
+.num{background:#fff;border:1px solid #000;}
+button{background:#fff;border:1px solid #000;outline: none;height:20px;}
+input{width:62px;height:18px;text-align: center;background:#fff4e8;outline: none;border:0;}
+#bot{width:1000px;height:60px;margin:4px auto;border:1px solid #ccc;}
+#bot>ul{float:left;}
+#bot>ul>li{float:left;width:100px;height:50px;line-height: 50px;text-align: center}
+#right{float:right;width:100px;height:60px;background:red;}
+#right>a{display: block;width:100px;height:60px;line-height:60px;font-size: 20px;text-align: center;color:#fff;text-decoration: none;}
+#center{float:left;width:100px;height:60px;margin-left: 220px}
+#center>span{height:60px;line-height:60px;font-size: 16px;text-align: center;text-decoration: none;float: left}
+.footer_details>dl{float:left;width:70px;margin:0 0 0 100px;}
+#footer_details{margin-top: 220px}
+.crimg{width:100px;height:100px;text-align: center}
