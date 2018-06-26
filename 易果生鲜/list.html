@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+<header id="header_wrap">
+    <header>
+        <div class="logo content"><img src="images/logo.jpg"></div>
+        <h1>进口水果</h1>
+    </header>
+</header>
+<div id="content">
+    <ul id="list">
+
+    </ul>
+</div>
+<div id="nav"><a href="product.html">查看购物车</a></div>
+</body>
+</html>
+<script src="pool.js"></script>
+<script>
+    var obj=[
+        {"id":"01",
+            "img":"http://img06.yiguoimg.com/d/others/180313/9288720243205229.jpg",
+            "price":"￥39.00",
+            "word":"秘鲁红提1kg 秘鲁三宝之一 甜而不凡"
+        },
+        {"id":"02",
+            "img":"http://img05.yiguoimg.com/d/others/180313/9288720243631213.jpg",
+            "price":"￥39.00",
+            "word":"秘鲁红提1kg 秘鲁三宝之一 甜而不凡"
+        },
+        {"id":"03",
+            "img":"http://img11.yiguoimg.com/d/items/2017/171225/9288717022012313_500.jpg",
+            "price":"￥39.00",
+            "word":"秘鲁红提1kg 秘鲁三宝之一 甜而不凡"
+        },
+        {"id":"04",
+            "img":"http://img05.yiguoimg.com/d/others/180313/9288720243139693.jpg",
+            "price":"￥39.00",
+            "word":"秘鲁红提1kg 秘鲁三宝之一 甜而不凡"
+        },
+        {"id":"05",
+            "img":"http://img05.yiguoimg.com/d/others/180329/9288720924386429.jpg",
+            "price":"￥39.00",
+            "word":"秘鲁红提1kg 秘鲁三宝之一 甜而不凡"
+        },
+        {"id":"06",
+            "img":"http://img09.yiguoimg.com/d/items/2018/180530/9288723718284478_500.jpg",
+            "price":"￥39.00",
+            "word":"秘鲁红提1kg 秘鲁三宝之一 甜而不凡"
+        },
+        {"id":"07",
+            "img":"http://img05.yiguoimg.com/d/others/180313/9288720243139693.jpg",
+            "price":"￥39.00",
+            "word":"秘鲁红提1kg 秘鲁三宝之一 甜而不凡"
+        },
+        {"id":"08",
+            "img":"http://img06.yiguoimg.com/d/others/180313/9288720243205229.jpg",
+            "price":"￥39.00",
+            "word":"秘鲁红提1kg 秘鲁三宝之一 甜而不凡"
+        }
+
+    ];
+    var olist=document.getElementById("list");
+    var obtn=document.querySelector(".left");
+    var li=document.querySelectorAll("#list>li");
+    console.log(li);
+    var str='';
+    for(var i=0;i<obj.length;i++) {
+        str = `<li  data-id=${obj[i].id}  class="go">
+                    <img src="${obj[i].img}">
+                    <p class="red">${obj[i].price}</p>
+                    <p>${obj[i].word}</p>
+                    <p><a href="#">易果官方自营旗舰店</a></p>
+                    <p><a href="details.html" class="left">查看详情</a><a href="#" class="right">加入购物车</a></p>
+                </li>`;
+        olist.innerHTML+=str;
+    }
+//    var go=document.querySelectorAll(".go");
+//    for(var i=0;i<go.length;i++){
+//        go[i].onclick=function(){
+//            var num = this.getAttribute("data-id");
+//            location.href="details.html?"+num;
+//        }
+//    }
+
+    var oNum={};
+    olist.onclick=function(e){
+        var e=e||event;
+        var target= e.target|| e.srcElement;
+        if(target.tagName=="A"&&target.className=="right"){
+            var id=target.parentNode.parentNode.getAttribute("data-id");
+            //以下注意
+            var n=oNum[id];
+            if(!n){
+                oNum[id]=1;
+            }else{
+                n++;
+                oNum[id]=n;
+            }
+            var data=JSON.stringify(oNum);
+            setCookie("love",data,10);
+        }
+
+    }
+
+</script>

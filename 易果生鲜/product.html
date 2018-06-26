@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #header_wrap{height:30px;}
+        .content{width:1200px;margin:0 auto;}
+        .header{height:30px;line-height: 30px}
+        .header>div:nth-child(1){float:left;}
+        .header>div:nth-child(2){float:right;width:528px;}
+        .header>div:nth-child(2)>ul{height:30px;line-height: 30px;float:right;}
+        .header>div:nth-child(2)>ul>li{float:left;margin-right: 4px}
+        .nav{padding-top:14px;position: relative}
+        .nav .logo{width:336px;height:62px;float:left;}
+        .nav .logo>a{width:240px; height:64px;display: block;background: url("images/logo.jpg") no-repeat center center;background-size:100% 100%;text-indent: -9999px}
+
+
+
+
+        .red{color:red;}
+        ul{list-style: none;}
+        #header{width:1000px;height:40px;margin:20px auto;
+            background: #cccccc;line-height: 40px;
+        }
+        #header>ul>li{float:left;width:120px;}
+        #list{width:1000px;margin: 0 auto;background:#fff4e8;}
+       .img>img{width:50px;height:50px;}
+        tr{width:1000px;height:120px;}
+        td{width:120px;height:120px;text-align: center}
+        input{width:20px;height:10px;}
+        .word{width:200px;height:120px;}
+        .check{text-align: center}
+        .num{background:#fff;border-top:1px solid #000;border-bottom:1px solid #000;}
+        button{background:#fff;border:1px solid #000;outline: none;height:20px;}
+        input{width:62px;height:18px;text-align: center;background:#fff4e8;outline: none;border:0;}
+        #bot{width:1000px;height:60px;margin:4px auto;border:1px solid #ccc;}
+        #bot>ul{float:left;}
+        #bot>ul>li{float:left;width:100px;height:50px;line-height: 50px;text-align: center}
+        #right{float:right;width:100px;height:60px;background:red;}
+        #right>a{display: block;width:100px;height:60px;line-height:60px;font-size: 20px;text-align: center;color:#fff;text-decoration: none;}
+        #center{float:left;width:100px;height:60px;margin-left: 280px}
+        #center>span{width:100px;height:60px;line-height:60px;font-size: 16px;text-align: center;text-decoration: none;}
+    </style>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+<header id="header_wrap">
+    <section class="header content">
+        <div>
+            <span>欢迎光临易果生鲜！</span>
+            <span>配送至：<a href="#">深圳市<i class="iconfont icon-triangledownfill"></i></a></span>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">[登录]</a></li>
+                <li><a href="#">[注册]</a></li>
+                <li class="top2"><i class="iconfont icon-peoplefill"></i><a href="#">我的易果<i class="iconfont icon-triangledownfill"></i></a>
+                    <ul class="top_vir">
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">我的优惠券</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我得悠币</a></li>
+                        <li><a href="#">我的退换货</a></li>
+                        <li><a href="#">预存款查询</a></li>
+                        <li><a href="#">立即充值</a></li>
+                    </ul>
+                </li>
+                <li><i class="iconfont icon-search"></i><a href="#">手机易果</a></li>
+                <li><i class="iconfont icon-search"></i><a href="#">储值卡</a></li>
+                <li><i class="iconfont icon-search"></i><a href="#">礼品兑换入口</a></li>
+            </ul>
+        </div>
+    </section>
+</header>
+<nav id="nav_wrap">
+    <nav class="nav content">
+        <div class="logo">
+            <a href="#"><h1>易果生鲜</h1></a>
+        </div>
+    </nav>
+</nav>
+<div id="header">
+    <ul>
+        <li><p><input type="checkbox" class="all"></p></li>
+        <li><p>商品</p></li>
+        <li><p></p></li>
+        <li><p></p></li>
+        <li><p>单价</p></li>
+        <li><p>数量</p></li>
+        <li><p>小计</p></li>
+        <li><p>操作</p></li>
+    </ul>
+</div>
+<table id="list">
+   <!--<tr>-->
+       <!--<td><img src="http://img14.yiguoimg.com/d/items/2017/171215/9288716571616143_500.jpg"></td>-->
+       <!--<td>￥39.90</td>-->
+   <!--</tr>-->
+</table>
+<div id="bot">
+    <ul>
+        <li><input type="checkbox" class="all1">全选</li>
+        <li><a href="#" class="delselect">删除选中的商品</a></li>
+        <li><a href="#">移到我的关注</a></li>
+        <li><a href="#">清理购物车</a></li>
+    </ul>
+    <div id="center">
+        <span>总价：</span><span class="span1 red">￥0</span>
+    </div>
+    <div id="right"><a href="#">去结算</a></div>
+</div>
+</body>
+</html>
+<script src="js/pool.js"></script>
+<script>
+    var olist=document.getElementById("list");
+    var obj=[
+        {
+            "id":"01",
+            "img":"images/img2.jpg",
+            "price":"￥39.00",
+            "word":"秘鲁提子",
+            "num":"￥45.00"
+        },
+        {
+            "id":"02",
+            "img":"images/img3.jpg",
+            "price":"￥23.00",
+            "word":"智利雪花梨",
+            "num":"￥45.00"
+        },
+        {
+            "id":"03",
+            "img":"images/img4.jpg",
+            "price":"￥25.00",
+            "word":"进口苹果",
+            "num":"￥45.00"
+        },
+        {
+            "id":"04",
+            "img":"images/img5.jpg",
+            "price":"￥45.00",
+            "word":"热带水果",
+            "num":"￥45.00"
+        },
+        {
+            "id":"05",
+            "img":"images/img6.jpg",
+            "price":"￥45.00",
+            "word":"泰国龙眼",
+            "num":"￥45.00"
+        },
+        {
+            "id":"06",
+            "img":"images/img7.jpg",
+            "price":"￥45.00",
+            "word":"智利西梅",
+            "num":"￥45.00"
+        }
+    ];
+    var str='';
+    if(getCookie("love")){
+        var data =JSON.parse(getCookie("love"));
+        for(var key in data){
+            for(var i in obj){
+                if(key==obj[i].id){
+                    str+="<tr><td><input type='checkbox' class='check'></td><td class='img'><img src="+obj[i].img+"></td><td class='word'>"+obj[i].word+"</td><td>"+obj[i].price+"</td><td><button class='dec'>-</button><input type='text' value="+data[key]+" class='num'><button class='inc'>+</button></td><td class='mumip'>"+obj[i].num+"</td><td><a href='#' class='del'>删除</a><br><a href='#'>移到我的关注</a><br><a href='#'>加到我的关注</a></td></tr>";
+                }
+            }
+        }
+        olist.innerHTML+=str;
+    }
+    olist.onclick=function(e){
+        var e=e||event;
+        var target= e.target|| e.srcElement;
+        if(target.className=="del"){
+            target.parentNode.parentNode.remove();
+        }
+    };
+    //商品加减
+    var inc=document.querySelectorAll(".inc");
+    console.log(inc);
+    for(var i=0;i<inc.length;i++){
+        inc[i].onclick=function(){
+            var num =Number(this.previousElementSibling.value);
+            console.log(num);
+            num++;
+            this.previousElementSibling.value=parseInt(num);
+            var price=this.parentNode.previousElementSibling.innerHTML.slice(1);
+            this.parentNode.nextElementSibling.innerHTML="￥"+price*num;
+
+        }
+    }
+    var dec=document.querySelectorAll(".dec");
+    for(var k=0;k<dec.length;k++){
+        dec[k].onclick=function(){
+            var num1=Number(this.nextElementSibling.value);
+            num1--;
+            if (num1 < 0) {
+                num1 =0;
+            } else {
+                var price=this.parentNode.previousElementSibling.innerHTML.slice(1);
+                this.nextElementSibling.value =parseInt(num1);
+                 this.parentNode.nextElementSibling.innerHTML="￥"+price*num1;
+            }
+        }
+    }
+    //单选全选
+    var ocheck=document.querySelectorAll(".check");
+    var all=document.querySelector(".all");
+    var all1=document.querySelector(".all1");
+    var span1=document.querySelector("span1");
+    var onumip=document.getElementsByClassName(".numip");
+    var oop=onumip.innerHTML;
+    console.log(oop);
+    all.onclick=function(){
+        if(this.checked) {
+            for (var i = 0; i < ocheck.length; i++) {
+                ocheck[i].checked = true;
+            }
+        }else{
+            for(var i=0;i<ocheck.length;i++){
+                ocheck[i].checked=false;
+            }
+        }
+    };
+    for(var i=0;i<ocheck.length;i++){
+        ocheck[i].onclick=function(){
+            var bstop=true;
+            for(var k=0;k<ocheck.length;k++){
+                if(!ocheck[k].checked){
+                    bstop=false;
+                    break;
+                }
+            }
+            if(bstop){
+                all.checked=true;
+            }else{
+                all.checked=false;
+            }
+        }
+    }
+    //下部全选
+    all1.onclick=function(){
+        if(this.checked) {
+            for (var i = 0; i < ocheck.length; i++) {
+                ocheck[i].checked = true;
+            }
+        }else{
+            for(var i=0;i<ocheck.length;i++){
+                ocheck[i].checked=false;
+            }
+        }
+    };
+
+</script>
